@@ -1,1 +1,10 @@
+<ul>
+  {{#each listOfThings as |item|}}
+    <li>
+      {{item.name}} {{item.rank}}
+    </li>
+  {{/each}}
+</ul>
+
+{{elm-component src=Elm.ListOfThings}}
 {{elm-component src=Elm.Hello}}
